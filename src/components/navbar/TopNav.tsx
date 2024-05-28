@@ -23,7 +23,7 @@ const TopNav = () => {
     <Navbar
       maxWidth="xl"
       // className="bg-gradient-to-r from-purple-400 to-orange-300 text-white"
-      className="bg-gray-200 "
+      className="bg-gray-200"
       classNames={{
         item: ["text-md", "uppercase"],
       }}
@@ -53,7 +53,7 @@ const TopNav = () => {
           as={Link}
           href={"/login"}
           variant="bordered"
-          className="border-gray-700 bg-orange-200"
+          className="border-gray-700 bg-orange-100"
         >
           Login
         </Button>
@@ -61,7 +61,7 @@ const TopNav = () => {
           as={Link}
           href={"/register"}
           variant="bordered"
-          className="border-gray-700 bg-yellow-200"
+          className="border-gray-700 bg-orange-100"
         >
           Register
         </Button>
